@@ -1,3 +1,8 @@
-spring.jpa:
-  show-sql: true
-  generate-ddl: false
+spring:
+  jpa:
+    show-sql: true
+    generate-ddl: false
+    hibernate:
+      ddl-auto: update
+  datasource:
+    url: jdbc:postgresql://localhost:5432/shashank
